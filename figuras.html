@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilosCuadraro.css">
     <title>Figuras Geométricas | Curso Práctico de JavaScript en Platzi</title>
 </head>
 <body>
@@ -11,14 +12,21 @@
         <h1>Figuras Geométricas</h1>
         <p>Este es el primer curso práctico de JavaScript</p>
     </header>
-    <section>
-        <h2>Calcula el área y perímetro de un cuadrado</h2>
-        <form action="">
-            <label for="InputCuadrado">Escribe cuanto mide cada lado de tu cuadrado:</label>
-            <input id="InputCuadrado" type="number">
-            <button type="button" onclick="calcularPerimetroCuadrado()">Calcular Perímetro</button>
-            <button type="button" onclick="calcularAreaCuadrado()">Calcular área</button>
-        </form>
+    <section class="section-form">
+        <div class="container-form">
+        <div class="container-section">
+            <h2 >Calcula el área y perímetro de un cuadrado</h2>
+            
+                <form action="" >
+                    <label for="InputCuadrado">Escribe cuanto mide cada lado de tu cuadrado:</label>
+                    <div class="inputcuadrado"><input id="InputCuadrado" type="number"></div>
+                    <div class="container-button">
+                        <button type="button" onclick="calcularPerimetroCuadrado()">Calcular Perímetro</button>
+                        <button type="button" onclick="calcularAreaCuadrado()">Calcular área</button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </section>
     <section>
         <h3>Calcula el área y perímetro de un Triángulo</h3>
