@@ -41,6 +41,13 @@
       <div class="container-form">
         <div class="container-section">
           <h2 class="subtitle">Calcula el perímetro de un Triángulo</h2>
+          <input
+            id="isosceles"
+            type="checkbox"
+            onclick="mostrarButton()"
+          /><label for="isosceles" style="font-weight: bold; font-size: 18px"
+            >Triángulo isósceles</label
+          >
           <form action="">
             <div class="inputCenter">
               <label for="lado1">Ingresa el Valor del lado 1</label>
@@ -51,10 +58,21 @@
               <input id="lado3" type="number" />
               <label for="resPeriTriangulo">Respuesta</label>
               <input readonly id="resPeriTriangulo" type="number" />
+              <label id="error" style="display: none;font-weight: bold; font-size: 18px;color:red;text-align: center;"
+                >El valor del lado 1 debe ser igual al valor del lado 2</label
+              >
             </div>
             <div class="button-Trian">
-              <button type="button" onclick="CalculaPerimetroTriangulo()">
+              <button id="ocultar" type="button" onclick="CalculaPerimetroTriangulo()">
                 Calcular Perímetro
+              </button>
+              <button
+                id="mostrar"
+                style="display: none"
+                type="button"
+                onclick="CalculaAlturaIsosceles()"
+              >
+                Calcular la Altura
               </button>
             </div>
           </form>

@@ -1,3 +1,9 @@
+function clear(){
+    document.getElementById("lado1").value = "";
+    document.getElementById("lado2").value = "";
+    document.getElementById("lado3").value = "";
+    document.getElementById("resPeriTriangulo").value = "";
+}
 //CUADRADO
 function perimetrocuadrado(lado){
     return lado * 4;
@@ -62,6 +68,38 @@ function CalculaAreaTriangulo(){
     const altura = inputAltura.value;
     const areaTriangulo1 = areaTriangulo(base, altura);
     document.getElementById("resAreaTriangulo").value = areaTriangulo1;
+}
+let estado = true;
+
+function mostrarButton(){
+    if(estado===true){
+        document.getElementById("mostrar").style.display = "block";
+        document.getElementById("ocultar").style.display = "none";
+        estado = false; 
+        clear();
+    }else{
+        document.getElementById("mostrar").style.display = "none";
+        document.getElementById("ocultar").style.display = "block";
+        estado = true; 
+        clear();
+    }
+}
+function CalculaAlturaIsosceles(){
+    const input1Isosceles = document.getElementById("lado1");
+    const lado1Isosceles = input1Isosceles.value;
+    const input2Isosceles = document.getElementById("lado2");
+    const lado2Isosceles = input2Isosceles.value;
+    const input3Isosceles = document.getElementById("lado3");
+    const lado3isosceles = input3Isosceles.value;
+    if(lado1Isosceles===lado2Isosceles){
+        document.getElementById("error").style.display = "none";
+        const Altisosceles = Math.sqrt(lado1Isosceles*lado1Isosceles-((lado3isosceles*lado3isosceles)/4));
+        document.getElementById("resPeriTriangulo").value = Altisosceles;
+    }else{
+        document.getElementById("error").style.display = "block";
+    }
+
+    
 }
 //CIRCULO
 function CalculaDiametroCirculo(){
