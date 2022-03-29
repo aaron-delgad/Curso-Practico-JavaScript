@@ -63,3 +63,25 @@ function CalculaAreaTriangulo(){
     const areaTriangulo1 = areaTriangulo(base, altura);
     document.getElementById("resAreaTriangulo").value = areaTriangulo1;
 }
+//CIRCULO
+function CalculaDiametroCirculo(){
+    const inputdiametro = document.getElementById("InputCirculo");
+    const diameCirculo = inputdiametro.value;
+
+    const diametCirculo1 = diametrocirculo(diameCirculo);
+    document.getElementById("resCirculo").value = diametCirculo1;
+}
+function CalculaPerimetroCirculo(){
+    const inputPerimetro = document.getElementById("InputCirculo");
+    const perimCirculo = inputPerimetro.value;
+
+    const perimCirculo1 = perimetrocirculo(perimCirculo);
+    document.getElementById("resCirculo").value = perimCirculo1;
+}
+function CalculaAreaCirculo(){
+    const inputAreaci = document.getElementById("InputCirculo");
+    const areaCirculo = inputAreaci.value;
+
+    const areaCirculo1 = areacirculo(areaCirculo);
+    document.getElementById("resCirculo").value = areaCirculo1;
+}

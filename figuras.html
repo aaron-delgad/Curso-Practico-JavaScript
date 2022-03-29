@@ -53,7 +53,9 @@
               <input readonly id="resPeriTriangulo" type="number" />
             </div>
             <div class="button-Trian">
-              <button type="button" onclick="CalculaPerimetroTriangulo()">Calcular Perímetro</button>
+              <button type="button" onclick="CalculaPerimetroTriangulo()">
+                Calcular Perímetro
+              </button>
             </div>
           </form>
         </div>
@@ -71,14 +73,41 @@
               <input readonly id="resAreaTriangulo" type="number" />
             </div>
             <div class="button-Trian">
-              <button type="button" onclick="CalculaAreaTriangulo()">Calcular Área</button>
+              <button type="button" onclick="CalculaAreaTriangulo()">
+                Calcular Área
+              </button>
             </div>
           </form>
         </div>
       </div>
     </section>
-    <section>
-        
+    <section class="section-form">
+      <div class="container-form">
+        <div class="container-section">
+          <h2 class="subtitle">
+            Calcula el diámetro, área y perímetro de un círculo
+          </h2>
+          <form action="">
+            <div class="inputCenter">
+              <label for="InputCirculo">Escribe el radio del círculo</label>
+              <input id="InputCirculo" type="number" />
+              <label for="resCirculo">Respuesta</label>
+              <input readonly id="resCirculo" type="number" />
+            </div>
+            <div class="container-button">
+              <button type="button" onclick="CalculaDiametroCirculo()">
+                Calcular Diámetro
+              </button>
+              <button type="button" onclick="CalculaAreaCirculo()">
+                Calcular área
+              </button>
+              <button type="button" onclick="CalculaPerimetroCirculo()">
+                Calcular Perímetro
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
     </section>
     <script src="./figuras.js"></script>
   </body>
