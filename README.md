@@ -13,3 +13,9 @@
 - Segundo Paso: Implementar las fórmulas en JavaScript.
 - Tercer Paso: Crear funciones.
 - Cuarto Paso: Integrar JavaScript con HTML.
+
+## Taller #3: Promedio, Mediana, Moda
+- Primer Paso: Definir las fórmulas.
+- Segundo Paso: Implementar las fórmulas en JavaScript.
+- Tercer Paso: Crear funciones.
+- Cuarto Paso: Integrar JavaScript con HTML.

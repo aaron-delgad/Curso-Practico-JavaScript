@@ -52,6 +52,7 @@ input {
 #buttonDescuent {
   background-color: white;
   width: 100%;
+  cursor: pointer;
 }
 .button-descuento {
   width: 100%;
@@ -59,9 +60,11 @@ input {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  cursor: pointer;
 }
 .button-descuento button {
   width: 75px;
+  cursor: pointer;
 }
 button {
   border-radius: 4px;
@@ -71,6 +74,7 @@ button {
   box-shadow: 10px 10px 5px -8px rgba(0, 0, 0, 0.12),
     -9px -10px 5px -8px rgba(0, 0, 0, 0.12);
   font-weight: bold;
+  cursor: pointer;
 }
 .resultado {
   border-radius: 4px;

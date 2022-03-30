@@ -63,6 +63,7 @@ button {
   padding: 8px;
   font-weight: bold;
   box-shadow: 9px -7px 8px -8px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
 }
 .inputCenter {
   display: flex;
@@ -76,4 +77,5 @@ button {
     flex-direction: row;
     justify-content: center;
     margin: 16px;
+    cursor: pointer;
 }
