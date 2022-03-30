@@ -67,7 +67,7 @@ button {
   border-radius: 4px;
   border: 1px solid #4ab7f5;
   background-color: #4ab7f5;
-  padding: 8px;
+  padding: 12px;
   box-shadow: 10px 10px 5px -8px rgba(0, 0, 0, 0.12),
     -9px -10px 5px -8px rgba(0, 0, 0, 0.12);
   font-weight: bold;
