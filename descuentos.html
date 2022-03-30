@@ -1,13 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/estilosDescuentos.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/estilosDescuentos.css" />
     <title>Porcentajes | Descuentos</title>
-</head>
-<body>
-    <h1></h1>
-</body>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Precios y Descuentos</h1>
+      <p>Este es el segundo taller práctico de JavaScript</p>
+      <section class="conatiner-form">
+        <h3>Aplicando Descuento Simple</h3>
+        <form action="">
+          <div class="formInput">
+            <label for="precio">Ingrese Precio</label>
+            <input id="precio" type="number" />
+            <label for="descuento">Ingrese Descuento</label>
+            <input id="descuento" type="number" />
+            <button type="button" onclick="PrecioConDescuento()">Calcular</button>
+            <label for="resultado">Precio con Descuento</label>
+          </div>
+          <p id="resultado"></p>
+        </form>
+      </section>
+    </div>
+    <script src="./descuentos.js"></script>
+  </body>
 </html>
