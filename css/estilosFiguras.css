@@ -1,3 +1,6 @@
+body{
+  /* background-image: url("./../fondo/fondogeo.jpg"); */
+}
 header {
   display: flex;
   flex-direction: column;
@@ -18,8 +21,8 @@ header p {
   align-items: center;
   width: 400px;
   margin-top: 20px;
-  border-radius: 2px;
-  background-color: #fcfcea;
+  border-radius: 6px;
+  background-color: #A1A2F9;
   box-shadow: 9px -7px 8px -8px rgba(0, 0, 0, 0.19),
     -9px 9px 8px -8px rgba(0, 0, 0, 0.19);
 }
@@ -43,9 +46,11 @@ header p {
 }
 input {
   padding: 10px;
-  background-color: #e5e5e4;
-  border-radius: 2px;
-  border: 1px solid #e5e5e4;
+  /* background-color: #e5e5e4; */
+  background-color: white;
+  border-radius: 6px;
+  /* border: 1px solid #e5e5e4; */
+  border: 1px solid white;
   border-bottom: 1px solid black;
   color: black;
   font-size: 18px;
