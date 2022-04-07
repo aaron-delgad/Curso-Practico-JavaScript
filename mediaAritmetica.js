@@ -7,7 +7,7 @@ function mediaAritmetca(lista){
 }
 
 function CalculaMediaAritmetica(){
-    const inputLista1 = document.getElementById("media1").Value;
+    const inputLista1 = document.getElementById("media1").value;
     let array = inputLista1.split(','); 
     const sumaLista = mediaAritmetca(array);
     const NTotal = array.length;
