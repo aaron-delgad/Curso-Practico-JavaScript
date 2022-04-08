@@ -67,8 +67,7 @@ button{
     .containerForm{
         border: 1px solid #DBDADA;
         border-radius: 8px;
-        margin: 20px;
-        padding: 20px;
-        /* width: 280px; */
+        margin: 5px;
+        padding: 10px;
     }
 }
