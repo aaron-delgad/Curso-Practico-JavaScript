@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/estilosEstadistica.css" />
-    <title>Promedio, Mediana y moda</title>
+    <title>Promedio | Mediana | moda</title>
   </head>
   <body>
-    <h1>Este es el tercer taller práctico de javaScript</h1>
+    <h1>Media Aritmética, Mediana y Moda</h1>
     <div class="container">
       <section class="containerForm">
-        <h2>Encuentra la Media Aritmética</h2>
+        <h2>Calcula la Media Aritmética</h2>
         <form action="" class="formMedia">
           <label for="media1"
-            >Utiliza la coma (,) para separar los números</label
+            >Utiliza la coma (,) para separar los números.<br>
+            Ejemplo: 1,2,3,4,5,6,7</label
           >
           <textarea id="media1" ></textarea>
           <button type="button" onclick="CalculaMediaAritmetica()">
@@ -22,6 +23,21 @@
           </button>
           <label for="respMedia">La Media Aritmética es:</label>
           <p id="respMedia"></p>
+        </form>
+      </section>
+      <section class="containerForm">
+        <h2>Calcula la Mediana</h2>
+        <form action="" class="formMedia">
+          <label for="mediana1"
+            >Utiliza la coma (,) para separar los números.<br>
+            Ejemplo: 1,2,3,4,5,6,7</label
+          >
+          <textarea id="mediana1" ></textarea>
+          <button type="button" onclick="CalculaMedianaAritmetica()">
+            Calcular
+          </button>
+          <label for="respMediana">La Mediana es:</label>
+          <p id="respMediana"></p>
         </form>
       </section>
     </div>
