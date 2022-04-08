@@ -23,7 +23,6 @@ body h1{
     border-radius: 8px;
     margin: 20px;
     padding: 35px;
-    /* width: 280px; */
 }
 .containerForm h2{
     text-align: center;
@@ -75,6 +74,6 @@ button{
         border: 1px solid #DBDADA;
         border-radius: 8px;
         margin: 5px;
-        padding: 10px;
+        padding: 5px;
     }
 }
